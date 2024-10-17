@@ -1,0 +1,13 @@
+/home/monijesu/ros2_ws/build/turtlesim/CMakeFiles/uninstall.dir
+/home/monijesu/ros2_ws/build/turtlesim/CMakeFiles/turtlesim_uninstall.dir
+/home/monijesu/ros2_ws/build/turtlesim/CMakeFiles/turtlesim_node.dir
+/home/monijesu/ros2_ws/build/turtlesim/CMakeFiles/turtle_teleop_key.dir
+/home/monijesu/ros2_ws/build/turtlesim/CMakeFiles/draw_square.dir
+/home/monijesu/ros2_ws/build/turtlesim/CMakeFiles/mimic.dir
+/home/monijesu/ros2_ws/build/turtlesim/CMakeFiles/test.dir
+/home/monijesu/ros2_ws/build/turtlesim/CMakeFiles/edit_cache.dir
+/home/monijesu/ros2_ws/build/turtlesim/CMakeFiles/rebuild_cache.dir
+/home/monijesu/ros2_ws/build/turtlesim/CMakeFiles/list_install_components.dir
+/home/monijesu/ros2_ws/build/turtlesim/CMakeFiles/install.dir
+/home/monijesu/ros2_ws/build/turtlesim/CMakeFiles/install/local.dir
+/home/monijesu/ros2_ws/build/turtlesim/CMakeFiles/install/strip.dir

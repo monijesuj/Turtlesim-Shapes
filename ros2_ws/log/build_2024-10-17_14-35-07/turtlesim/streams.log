@@ -1,0 +1,87 @@
+[0.006s] Invoking command in '/home/monijesu/ros2_ws/build/turtlesim': AMENT_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:/home/monijesu/ros2_ws/install/examples_rclcpp_wait_set:/home/monijesu/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_timer:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_service:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_composition:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_client:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/monijesu/ros2_ws/install/examples_rclcpp_cbg_executor:/home/monijesu/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/monijesu/ros2_ws/install/examples_rclpy_minimal_action_client:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/monijesu/ros2_ws/install/turtlesim_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/monijesu/ros2_ws/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/monijesu/ros2_ws/install/turtlesim
+[0.015s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.141s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.146s] -- Found ament_index_cpp: 1.9.0 (/opt/ros/rolling/share/ament_index_cpp/cmake)
+[0.146s] -- Found geometry_msgs: 5.4.1 (/opt/ros/rolling/share/geometry_msgs/cmake)
+[0.161s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.167s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.222s] -- Found rclcpp: 28.3.3 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.257s] -- Found rmw_implementation_cmake: 7.4.3 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.258s] -- Found rmw_fastrtps_cpp: 9.0.1 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.297s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.340s] -- Found rclcpp_action: 28.3.3 (/opt/ros/rolling/share/rclcpp_action/cmake)
+[0.373s] -- Found std_srvs: 5.4.1 (/opt/ros/rolling/share/std_srvs/cmake)
+[0.385s] -- Found turtlesim_msgs: 1.9.2 (/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake)
+[0.401s] -- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[0.461s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.463s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.463s] -- Configured cppcheck include dirs: /home/monijesu/ros2_ws/src/ros_tutorials/turtlesim/include
+[0.463s] -- Configured cppcheck exclude dirs and/or files: 
+[0.464s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.464s] -- Configured cpplint exclude dirs and/or files: 
+[0.464s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.464s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.464s] -- Added test 'lint_cmake' to check CMake code style
+[0.465s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.465s] -- Added test 'uncrustify' to check C / C++ code style
+[0.465s] -- Configured uncrustify additional arguments: 
+[0.466s] -- Added test 'xmllint' to check XML markup files
+[0.466s] -- Configuring done (0.5s)
+[0.485s] -- Generating done (0.0s)
+[0.486s] -- Build files have been written to: /home/monijesu/ros2_ws/build/turtlesim
+[0.492s] Invoked command in '/home/monijesu/ros2_ws/build/turtlesim' returned '0': AMENT_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:/home/monijesu/ros2_ws/install/examples_rclcpp_wait_set:/home/monijesu/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_timer:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_service:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_composition:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_client:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/monijesu/ros2_ws/install/examples_rclcpp_cbg_executor:/home/monijesu/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/monijesu/ros2_ws/install/examples_rclpy_minimal_action_client:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/monijesu/ros2_ws/install/turtlesim_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/monijesu/ros2_ws/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/monijesu/ros2_ws/install/turtlesim
+[0.493s] Invoking command in '/home/monijesu/ros2_ws/build/turtlesim': AMENT_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:/home/monijesu/ros2_ws/install/examples_rclcpp_wait_set:/home/monijesu/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_timer:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_service:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_composition:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_client:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/monijesu/ros2_ws/install/examples_rclcpp_cbg_executor:/home/monijesu/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/monijesu/ros2_ws/install/examples_rclpy_minimal_action_client:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/monijesu/ros2_ws/install/turtlesim_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/monijesu/ros2_ws/build/turtlesim -- -j16 -l16
+[0.533s] [ 25%] [32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o[0m
+[0.533s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o[0m
+[0.533s] [ 25%] [32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o[0m
+[0.542s] [ 33%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o[0m
+[0.542s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o[0m
+[0.542s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[0.543s] [ 58%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o[0m
+[5.971s] [ 66%] [32m[1mLinking CXX executable turtle_teleop_key[0m
+[6.163s] [ 66%] Built target turtle_teleop_key
+[8.036s] [ 75%] [32m[1mLinking CXX executable mimic[0m
+[8.251s] [ 75%] Built target mimic
+[8.646s] [ 83%] [32m[1mLinking CXX executable draw_square[0m
+[8.885s] [ 83%] Built target draw_square
+[11.295s] [ 91%] [32m[1mLinking CXX executable turtlesim_node[0m
+[12.370s] [100%] Built target turtlesim_node
+[12.377s] Invoked command in '/home/monijesu/ros2_ws/build/turtlesim' returned '0': AMENT_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:/home/monijesu/ros2_ws/install/examples_rclcpp_wait_set:/home/monijesu/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_timer:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_service:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_composition:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_client:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/monijesu/ros2_ws/install/examples_rclcpp_cbg_executor:/home/monijesu/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/monijesu/ros2_ws/install/examples_rclpy_minimal_action_client:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/monijesu/ros2_ws/install/turtlesim_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/monijesu/ros2_ws/build/turtlesim -- -j16 -l16
+[12.412s] Invoking command in '/home/monijesu/ros2_ws/build/turtlesim': AMENT_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:/home/monijesu/ros2_ws/install/examples_rclcpp_wait_set:/home/monijesu/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_timer:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_service:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_composition:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_client:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/monijesu/ros2_ws/install/examples_rclcpp_cbg_executor:/home/monijesu/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/monijesu/ros2_ws/install/examples_rclpy_minimal_action_client:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/monijesu/ros2_ws/install/turtlesim_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/monijesu/ros2_ws/build/turtlesim
+[12.416s] -- Install configuration: ""
+[12.416s] -- Execute custom install script
+[12.417s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node
+[12.421s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[12.426s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/lib/turtlesim/draw_square
+[12.430s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/lib/turtlesim/mimic
+[12.434s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[12.439s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[12.443s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[12.447s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[12.452s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[12.456s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh
+[12.461s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv
+[12.465s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash
+[12.469s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh
+[12.473s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh
+[12.478s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv
+[12.482s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/package.dsv
+[12.486s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[12.490s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[12.495s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[12.499s] -- Symlinking: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/package.xml
+[12.503s] -- Installing: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/images
+[12.503s] -- Installing: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/images/rolling.png
+[12.510s] -- Installing: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png
+[12.510s] -- Installing: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/images/humble.png
+[12.510s] -- Installing: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/images/iron.png
+[12.511s] -- Installing: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png
+[12.511s] -- Installing: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/images/galactic.png
+[12.511s] -- Installing: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/images/jazzy.png
+[12.512s] -- Installing: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png
+[12.512s] -- Installing: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png
+[12.512s] -- Installing: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png
+[12.512s] -- Installing: /home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png
+[12.513s] Invoked command in '/home/monijesu/ros2_ws/build/turtlesim' returned '0': AMENT_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:/home/monijesu/ros2_ws/install/examples_rclcpp_wait_set:/home/monijesu/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_timer:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_service:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_composition:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_client:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/monijesu/ros2_ws/install/examples_rclcpp_cbg_executor:/home/monijesu/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/monijesu/ros2_ws/install/examples_rclpy_minimal_action_client:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/monijesu/ros2_ws/install/turtlesim_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/monijesu/ros2_ws/build/turtlesim

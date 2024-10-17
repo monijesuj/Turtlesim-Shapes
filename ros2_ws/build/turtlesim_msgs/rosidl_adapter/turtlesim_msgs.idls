@@ -1,0 +1,8 @@
+/home/monijesu/ros2_ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:msg/Color.idl
+/home/monijesu/ros2_ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:msg/Pose.idl
+/home/monijesu/ros2_ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:action/RotateAbsolute.idl
+/home/monijesu/ros2_ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/Kill.idl
+/home/monijesu/ros2_ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/SetPen.idl
+/home/monijesu/ros2_ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/Spawn.idl
+/home/monijesu/ros2_ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/TeleportAbsolute.idl
+/home/monijesu/ros2_ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/TeleportRelative.idl

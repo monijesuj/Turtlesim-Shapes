@@ -1,0 +1,17 @@
+[0.391s] Invoking command in '/home/monijesu/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/monijesu/ros2_ws/build/examples_rclpy_minimal_subscriber/pytest.xml --junit-prefix=examples_rclpy_minimal_subscriber -o cache_dir=/home/monijesu/ros2_ws/build/examples_rclpy_minimal_subscriber/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[2.741s] [1m============================= test session starts ==============================[0m
+[2.741s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[2.741s] cachedir: /home/monijesu/ros2_ws/build/examples_rclpy_minimal_subscriber/.pytest_cache
+[2.741s] rootdir: /home/monijesu/ros2_ws/src/examples/rclpy
+[2.741s] configfile: pytest.ini
+[2.741s] plugins: launch-testing-3.6.1, ament-xmllint-0.18.1, ament-pep257-0.18.1, launch-testing-ros-0.27.2, ament-copyright-0.18.1, ament-flake8-0.18.1, ament-lint-0.18.1, cov-4.1.0, colcon-core-0.18.1
+[2.742s] [1mcollecting ... [0m[1m
+[2.742s] collected 3 items                                                              [0m
+[2.742s] 
+[2.742s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[2.742s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[2.742s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[2.742s] 
+[2.742s] - generated xml file: /home/monijesu/ros2_ws/build/examples_rclpy_minimal_subscriber/pytest.xml -
+[2.742s] [32m============================== [32m[1m3 passed[0m[32m in 0.78s[0m[32m ===============================[0m
+[2.743s] Invoked command in '/home/monijesu/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/monijesu/ros2_ws/build/examples_rclpy_minimal_subscriber/pytest.xml --junit-prefix=examples_rclpy_minimal_subscriber -o cache_dir=/home/monijesu/ros2_ws/build/examples_rclpy_minimal_subscriber/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

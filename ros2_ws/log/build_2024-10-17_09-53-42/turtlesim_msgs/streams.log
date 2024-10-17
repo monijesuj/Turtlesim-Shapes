@@ -1,0 +1,27 @@
+[0.010s] Invoking command in '/home/monijesu/ros2_ws/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/monijesu/ros2_ws/build/turtlesim_msgs -- -j16 -l16
+[0.041s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.188s] -- Found builtin_interfaces: 2.2.0 (/opt/ros/rolling/share/builtin_interfaces/cmake)
+[0.222s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.238s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.284s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[0.284s]   By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH
+[0.284s]   this project has asked CMake to find a package configuration file provided
+[0.285s]   by "rosidl_default_generators", but CMake did not find one.
+[0.285s] 
+[0.285s]   Could not find a package configuration file provided by
+[0.285s]   "rosidl_default_generators" with any of the following names:
+[0.285s] 
+[0.285s]     rosidl_default_generatorsConfig.cmake
+[0.285s]     rosidl_default_generators-config.cmake
+[0.285s] 
+[0.285s]   Add the installation prefix of "rosidl_default_generators" to
+[0.285s]   CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory
+[0.285s]   containing one of the above files.  If "rosidl_default_generators" provides
+[0.285s]   a separate development package or SDK, be sure it has been installed.
+[0.286s] 
+[0.286s] [0m
+[0.286s] -- Configuring incomplete, errors occurred!
+[0.289s] gmake: *** [Makefile:2705: cmake_check_build_system] Error 1
+[0.291s] Invoked command in '/home/monijesu/ros2_ws/build/turtlesim_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/monijesu/ros2_ws/build/turtlesim_msgs -- -j16 -l16

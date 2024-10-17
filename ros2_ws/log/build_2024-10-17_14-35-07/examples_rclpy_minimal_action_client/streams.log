@@ -1,0 +1,33 @@
+[1.923s] Invoking command in '/home/monijesu/ros2_ws/build/examples_rclpy_minimal_action_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monijesu/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monijesu/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/monijesu/ros2_ws/build/examples_rclpy_minimal_action_client/build --no-deps symlink_data
+[2.378s] running develop
+[2.378s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.378s] !!
+[2.378s] 
+[2.378s]         ********************************************************************************
+[2.378s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.379s]         Instead, use pypa/build, pypa/installer or other
+[2.379s]         standards-based tools.
+[2.379s] 
+[2.379s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.379s]         ********************************************************************************
+[2.379s] 
+[2.379s] !!
+[2.379s]   easy_install.initialize_options(self)
+[2.694s] running egg_info
+[2.721s] writing examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[2.722s] writing dependency_links to examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[2.722s] writing entry points to examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[2.722s] writing requirements to examples_rclpy_minimal_action_client.egg-info/requires.txt
+[2.723s] writing top-level names to examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[2.778s] reading manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[2.780s] writing manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[2.813s] running build_ext
+[2.813s] Creating /home/monijesu/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages/examples-rclpy-minimal-action-client.egg-link (link to .)
+[2.814s] Installing client script to /home/monijesu/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.815s] Installing client_asyncio script to /home/monijesu/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.815s] Installing client_cancel script to /home/monijesu/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.815s] Installing client_not_composable script to /home/monijesu/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.815s] 
+[2.815s] Installed /home/monijesu/ros2_ws/build/examples_rclpy_minimal_action_client
+[2.815s] running symlink_data
+[2.869s] Invoked command in '/home/monijesu/ros2_ws/build/examples_rclpy_minimal_action_client' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monijesu/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monijesu/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/monijesu/ros2_ws/build/examples_rclpy_minimal_action_client/build --no-deps symlink_data

@@ -1,0 +1,32 @@
+[1.930s] Invoking command in '/home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/build --no-deps symlink_data --force
+[2.188s] running develop
+[2.188s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.188s] !!
+[2.188s] 
+[2.188s]         ********************************************************************************
+[2.188s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.188s]         Instead, use pypa/build, pypa/installer or other
+[2.188s]         standards-based tools.
+[2.188s] 
+[2.188s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.189s]         ********************************************************************************
+[2.189s] 
+[2.189s] !!
+[2.189s]   easy_install.initialize_options(self)
+[2.356s] running egg_info
+[2.372s] writing examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[2.373s] writing dependency_links to examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[2.373s] writing entry points to examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[2.373s] writing requirements to examples_rclpy_guard_conditions.egg-info/requires.txt
+[2.373s] writing top-level names to examples_rclpy_guard_conditions.egg-info/top_level.txt
+[2.406s] reading manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[2.407s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[2.424s] running build_ext
+[2.424s] Creating /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[2.424s] Installing trigger_guard_condition script to /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[2.425s] 
+[2.425s] Installed /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions
+[2.425s] running symlink_data
+[2.425s] symbolically linking /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/resource/examples_rclpy_guard_conditions -> /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[2.425s] symbolically linking /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/package.xml -> /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[2.639s] Invoked command in '/home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/build --no-deps symlink_data --force

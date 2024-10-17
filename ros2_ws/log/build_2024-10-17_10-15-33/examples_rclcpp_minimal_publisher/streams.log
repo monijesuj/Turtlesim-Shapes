@@ -1,0 +1,61 @@
+[0.046s] Invoking command in '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_publisher
+[0.865s] -- The C compiler identification is GNU 13.2.0
+[0.866s] -- The CXX compiler identification is GNU 13.2.0
+[0.866s] -- Detecting C compiler ABI info
+[0.866s] -- Detecting C compiler ABI info - done
+[0.866s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.866s] -- Detecting C compile features
+[0.866s] -- Detecting C compile features - done
+[0.866s] -- Detecting CXX compiler ABI info
+[0.867s] -- Detecting CXX compiler ABI info - done
+[0.867s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.867s] -- Detecting CXX compile features
+[0.867s] -- Detecting CXX compile features - done
+[0.867s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.867s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.009s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.054s] -- Found rclcpp: 28.3.3 (/opt/ros/rolling/share/rclcpp/cmake)
+[1.129s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[1.157s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[1.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.232s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.403s] -- Found rmw_implementation_cmake: 7.4.3 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.409s] -- Found rmw_fastrtps_cpp: 9.0.1 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[1.554s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.597s] -- Found FastRTPS: /opt/ros/rolling/include (Required is at least version "2.13") 
+[1.656s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.835s] -- Found std_msgs: 5.4.1 (/opt/ros/rolling/share/std_msgs/cmake)
+[1.880s] -- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[2.118s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.121s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.121s] -- Configured cppcheck include dirs: 
+[2.121s] -- Configured cppcheck exclude dirs and/or files: 
+[2.123s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.123s] -- Configured cpplint exclude dirs and/or files: 
+[2.125s] -- Added test 'lint_cmake' to check CMake code style
+[2.127s] -- Added test 'uncrustify' to check C / C++ code style
+[2.127s] -- Configured uncrustify additional arguments: 
+[2.128s] -- Added test 'xmllint' to check XML markup files
+[2.133s] -- Configuring done (2.1s)
+[2.195s] -- Generating done (0.0s)
+[2.206s] -- Build files have been written to: /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher
+[2.220s] Invoked command in '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_publisher
+[2.229s] Invoking command in '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[2.368s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[2.377s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[2.378s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[2.383s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[2.392s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[2.396s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[32.849s] [ 58%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[33.242s] [ 66%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[33.545s] [ 66%] Built target publisher_wait_for_all_acked
+[34.062s] [ 66%] Built target publisher_not_composable
+[34.351s] [ 75%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[34.485s] [ 83%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[35.048s] [ 83%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[35.099s] [ 83%] Built target publisher_member_function_with_type_adapter
+[35.856s] [ 91%] [32m[1mLinking CXX executable publisher_member_function[0m
+[36.208s] [100%] [32m[1mLinking CXX executable publisher_lambda[0m
+[36.225s] [100%] Built target publisher_member_function
+[36.815s] [100%] Built target publisher_lambda

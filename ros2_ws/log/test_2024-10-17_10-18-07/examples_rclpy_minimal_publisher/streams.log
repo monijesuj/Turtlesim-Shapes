@@ -1,0 +1,17 @@
+[1.103s] Invoking command in '/home/monijesu/ros2_ws/src/examples/rclpy/topics/minimal_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/monijesu/ros2_ws/build/examples_rclpy_minimal_publisher/pytest.xml --junit-prefix=examples_rclpy_minimal_publisher -o cache_dir=/home/monijesu/ros2_ws/build/examples_rclpy_minimal_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[1.551s] [1m============================= test session starts ==============================[0m
+[1.551s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[1.561s] cachedir: /home/monijesu/ros2_ws/build/examples_rclpy_minimal_publisher/.pytest_cache
+[1.561s] rootdir: /home/monijesu/ros2_ws/src/examples/rclpy
+[1.561s] configfile: pytest.ini
+[1.561s] plugins: launch-testing-3.6.1, ament-xmllint-0.18.1, ament-pep257-0.18.1, launch-testing-ros-0.27.2, ament-copyright-0.18.1, ament-flake8-0.18.1, ament-lint-0.18.1, cov-4.1.0, colcon-core-0.18.1
+[1.689s] [1mcollecting ... [0m[1m
+[1.689s] collected 3 items                                                              [0m
+[1.689s] 
+[2.251s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[2.482s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[2.509s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[2.509s] 
+[2.510s] - generated xml file: /home/monijesu/ros2_ws/build/examples_rclpy_minimal_publisher/pytest.xml -
+[2.510s] [32m============================== [32m[1m3 passed[0m[32m in 0.96s[0m[32m ===============================[0m
+[2.602s] Invoked command in '/home/monijesu/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/monijesu/ros2_ws/build/examples_rclpy_minimal_publisher/pytest.xml --junit-prefix=examples_rclpy_minimal_publisher -o cache_dir=/home/monijesu/ros2_ws/build/examples_rclpy_minimal_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

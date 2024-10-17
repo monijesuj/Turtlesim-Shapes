@@ -1,0 +1,24 @@
+[3.176s] Invoking command in '/home/monijesu/ros2_ws/src/turtle_path_planner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monijesu/ros2_ws/build/turtle_path_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monijesu/ros2_ws/install/turtle_path_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_path_planner build --build-base /home/monijesu/ros2_ws/build/turtle_path_planner/build install --record /home/monijesu/ros2_ws/build/turtle_path_planner/install.log --single-version-externally-managed install_data
+[3.545s] running egg_info
+[3.571s] writing ../../build/turtle_path_planner/turtle_path_planner.egg-info/PKG-INFO
+[3.572s] writing dependency_links to ../../build/turtle_path_planner/turtle_path_planner.egg-info/dependency_links.txt
+[3.572s] writing entry points to ../../build/turtle_path_planner/turtle_path_planner.egg-info/entry_points.txt
+[3.572s] writing requirements to ../../build/turtle_path_planner/turtle_path_planner.egg-info/requires.txt
+[3.572s] writing top-level names to ../../build/turtle_path_planner/turtle_path_planner.egg-info/top_level.txt
+[3.625s] reading manifest file '../../build/turtle_path_planner/turtle_path_planner.egg-info/SOURCES.txt'
+[3.626s] writing manifest file '../../build/turtle_path_planner/turtle_path_planner.egg-info/SOURCES.txt'
+[3.627s] running build
+[3.627s] running build_py
+[3.627s] copying turtle_path_planner/path_planner.py -> /home/monijesu/ros2_ws/build/turtle_path_planner/build/lib/turtle_path_planner
+[3.627s] running install
+[3.637s] running install_lib
+[3.663s] copying /home/monijesu/ros2_ws/build/turtle_path_planner/build/lib/turtle_path_planner/path_planner.py -> /home/monijesu/ros2_ws/install/turtle_path_planner/lib/python3.12/site-packages/turtle_path_planner
+[3.663s] byte-compiling /home/monijesu/ros2_ws/install/turtle_path_planner/lib/python3.12/site-packages/turtle_path_planner/path_planner.py to path_planner.cpython-312.pyc
+[3.665s] running install_data
+[3.665s] running install_egg_info
+[3.692s] removing '/home/monijesu/ros2_ws/install/turtle_path_planner/lib/python3.12/site-packages/turtle_path_planner-0.0.0-py3.12.egg-info' (and everything under it)
+[3.692s] Copying ../../build/turtle_path_planner/turtle_path_planner.egg-info to /home/monijesu/ros2_ws/install/turtle_path_planner/lib/python3.12/site-packages/turtle_path_planner-0.0.0-py3.12.egg-info
+[3.693s] running install_scripts
+[3.865s] Installing path_planner script to /home/monijesu/ros2_ws/install/turtle_path_planner/lib/turtle_path_planner
+[3.866s] writing list of installed files to '/home/monijesu/ros2_ws/build/turtle_path_planner/install.log'
+[3.915s] Invoked command in '/home/monijesu/ros2_ws/src/turtle_path_planner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monijesu/ros2_ws/build/turtle_path_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monijesu/ros2_ws/install/turtle_path_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_path_planner build --build-base /home/monijesu/ros2_ws/build/turtle_path_planner/build install --record /home/monijesu/ros2_ws/build/turtle_path_planner/install.log --single-version-externally-managed install_data

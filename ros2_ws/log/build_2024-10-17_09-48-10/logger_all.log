@@ -1,0 +1,254 @@
+[0.103s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.103s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7794e238ae70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7794e238aba0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7794e238aba0>>, mixin_verb=('build',))
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.138s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/monijesu/ros2_ws'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim_msgs) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim_msgs) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim_msgs) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim_msgs) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim_msgs) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim_msgs) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim_msgs) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim_msgs) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim_msgs' with type 'ros.ament_cmake' and name 'turtlesim_msgs'
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.188s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/monijesu/ros2_ws/install/turtlesim' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.188s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/monijesu/ros2_ws/install/turtlesim_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/monijesu/ros2_ws/install/turtle_path_planner' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/monijesu/ros2_ws/install/turtle_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/monijesu/ros2_ws/install/turtlesim' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/monijesu/ros2_ws/install/turtlesim_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.189s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/monijesu/ros2_ws/install
+[0.191s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 308 installed packages in /opt/ros/rolling
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.233s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /opt/ros/rolling
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_msgs' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_msgs' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/monijesu/ros2_ws/build/turtlesim_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/monijesu/ros2_ws/install/turtlesim_msgs', 'merge_install': False, 'path': '/home/monijesu/ros2_ws/src/ros_tutorials/turtlesim_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/monijesu/ros2_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/monijesu/ros2_ws/install/turtlesim', 'merge_install': False, 'path': '/home/monijesu/ros2_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.234s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.236s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.236s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/monijesu/ros2_ws/src/ros_tutorials/turtlesim_msgs' with build type 'ament_cmake'
+[0.236s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/monijesu/ros2_ws/src/ros_tutorials/turtlesim_msgs'
+[0.238s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monijesu/ros2_ws/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/monijesu/ros2_ws/src/ros_tutorials/turtlesim_msgs -DCMAKE_INSTALL_PREFIX=/home/monijesu/ros2_ws/install/turtlesim_msgs
+[4.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monijesu/ros2_ws/build/turtlesim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/monijesu/ros2_ws/src/ros_tutorials/turtlesim_msgs -DCMAKE_INSTALL_PREFIX=/home/monijesu/ros2_ws/install/turtlesim_msgs
+[4.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monijesu/ros2_ws/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/monijesu/ros2_ws/build/turtlesim_msgs -- -j16 -l16
+[12.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monijesu/ros2_ws/build/turtlesim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/monijesu/ros2_ws/build/turtlesim_msgs -- -j16 -l16
+[12.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monijesu/ros2_ws/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/monijesu/ros2_ws/build/turtlesim_msgs
+[13.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_msgs)
+[13.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monijesu/ros2_ws/build/turtlesim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/monijesu/ros2_ws/build/turtlesim_msgs
+[13.090s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs' for CMake module files
+[13.091s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs' for CMake config files
+[13.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_msgs', 'cmake_prefix_path')
+[13.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/cmake_prefix_path.ps1'
+[13.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/cmake_prefix_path.dsv'
+[13.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/cmake_prefix_path.sh'
+[13.094s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs/lib'
+[13.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_msgs', 'ld_library_path_lib')
+[13.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/ld_library_path_lib.ps1'
+[13.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/ld_library_path_lib.dsv'
+[13.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/ld_library_path_lib.sh'
+[13.095s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs/bin'
+[13.095s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs/lib/pkgconfig/turtlesim_msgs.pc'
+[13.095s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs/lib/python3.12/site-packages'
+[13.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_msgs', 'pythonpath')
+[13.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/pythonpath.ps1'
+[13.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/pythonpath.dsv'
+[13.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/pythonpath.sh'
+[13.097s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs/bin'
+[13.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/package.ps1'
+[13.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/package.dsv'
+[13.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/package.sh'
+[13.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/package.bash'
+[13.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/package.zsh'
+[13.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monijesu/ros2_ws/install/turtlesim_msgs/share/colcon-core/packages/turtlesim_msgs)
+[13.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_msgs)
+[13.428s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs' for CMake module files
+[13.429s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs' for CMake config files
+[13.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_msgs', 'cmake_prefix_path')
+[13.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/cmake_prefix_path.ps1'
+[13.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/cmake_prefix_path.dsv'
+[13.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/cmake_prefix_path.sh'
+[13.432s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs/lib'
+[13.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_msgs', 'ld_library_path_lib')
+[13.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/ld_library_path_lib.ps1'
+[13.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/ld_library_path_lib.dsv'
+[13.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/ld_library_path_lib.sh'
+[13.434s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs/bin'
+[13.434s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs/lib/pkgconfig/turtlesim_msgs.pc'
+[13.435s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs/lib/python3.12/site-packages'
+[13.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_msgs', 'pythonpath')
+[13.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/pythonpath.ps1'
+[13.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/pythonpath.dsv'
+[13.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/hook/pythonpath.sh'
+[13.438s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim_msgs/bin'
+[13.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/package.ps1'
+[13.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/package.dsv'
+[13.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/package.sh'
+[13.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/package.bash'
+[13.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim_msgs/share/turtlesim_msgs/package.zsh'
+[13.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monijesu/ros2_ws/install/turtlesim_msgs/share/colcon-core/packages/turtlesim_msgs)
+[13.442s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/monijesu/ros2_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[13.442s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/monijesu/ros2_ws/src/ros_tutorials/turtlesim'
+[13.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monijesu/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:/home/monijesu/ros2_ws/install/turtlesim:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/monijesu/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/monijesu/ros2_ws/install/turtlesim
+[15.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monijesu/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:/home/monijesu/ros2_ws/install/turtlesim:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/monijesu/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/monijesu/ros2_ws/install/turtlesim
+[15.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monijesu/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:/home/monijesu/ros2_ws/install/turtlesim:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/monijesu/ros2_ws/build/turtlesim -- -j16 -l16
+[33.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monijesu/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:/home/monijesu/ros2_ws/install/turtlesim:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/monijesu/ros2_ws/build/turtlesim -- -j16 -l16
+[33.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monijesu/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:/home/monijesu/ros2_ws/install/turtlesim:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/monijesu/ros2_ws/build/turtlesim
+[33.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[33.426s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim' for CMake module files
+[33.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monijesu/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/home/monijesu/ros2_ws/install/turtlesim_msgs:/home/monijesu/ros2_ws/install/turtlesim:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/monijesu/ros2_ws/install/turtle_path_planner:/home/monijesu/ros2_ws/install/turtle_package:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/monijesu/ros2_ws/build/turtlesim
+[33.427s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim' for CMake config files
+[33.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[33.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[33.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[33.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[33.429s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim/lib'
+[33.429s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim/bin'
+[33.429s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[33.430s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim/lib/python3.12/site-packages'
+[33.430s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim/bin'
+[33.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[33.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[33.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/package.sh'
+[33.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/package.bash'
+[33.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[33.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monijesu/ros2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[33.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[33.477s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim' for CMake module files
+[33.478s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim' for CMake config files
+[33.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[33.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[33.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[33.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[33.480s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim/lib'
+[33.480s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim/bin'
+[33.480s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[33.480s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim/lib/python3.12/site-packages'
+[33.480s] Level 1:colcon.colcon_core.environment:checking '/home/monijesu/ros2_ws/install/turtlesim/bin'
+[33.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[33.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[33.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/package.sh'
+[33.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/package.bash'
+[33.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/monijesu/ros2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[33.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monijesu/ros2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[33.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[33.484s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.490s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.490s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.490s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.508s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.508s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/monijesu/ros2_ws/install/local_setup.ps1'
+[33.510s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/monijesu/ros2_ws/install/_local_setup_util_ps1.py'
+[33.511s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/monijesu/ros2_ws/install/setup.ps1'
+[33.513s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/monijesu/ros2_ws/install/local_setup.sh'
+[33.514s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/monijesu/ros2_ws/install/_local_setup_util_sh.py'
+[33.514s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/monijesu/ros2_ws/install/setup.sh'
+[33.515s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/monijesu/ros2_ws/install/local_setup.bash'
+[33.516s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/monijesu/ros2_ws/install/setup.bash'
+[33.517s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/monijesu/ros2_ws/install/local_setup.zsh'
+[33.517s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/monijesu/ros2_ws/install/setup.zsh'

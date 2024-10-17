@@ -1,0 +1,25 @@
+[2.065s] Invoking command in '/home/monijesu/ros2_ws/src/examples/rclpy/executors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monijesu/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monijesu/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/monijesu/ros2_ws/build/examples_rclpy_executors/build install --record /home/monijesu/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data
+[2.325s] running egg_info
+[2.344s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[2.344s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[2.344s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[2.344s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[2.344s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[2.383s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.384s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.384s] running build
+[2.384s] running build_py
+[2.384s] running install
+[2.390s] running install_lib
+[2.408s] running install_data
+[2.408s] running install_egg_info
+[2.427s] removing '/home/monijesu/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages/examples_rclpy_executors-0.20.2-py3.12.egg-info' (and everything under it)
+[2.427s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/monijesu/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages/examples_rclpy_executors-0.20.2-py3.12.egg-info
+[2.428s] running install_scripts
+[2.553s] Installing callback_group script to /home/monijesu/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.553s] Installing composed script to /home/monijesu/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.553s] Installing custom_callback_group script to /home/monijesu/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.554s] Installing custom_executor script to /home/monijesu/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.554s] Installing listener script to /home/monijesu/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.554s] Installing talker script to /home/monijesu/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.554s] writing list of installed files to '/home/monijesu/ros2_ws/build/examples_rclpy_executors/install.log'

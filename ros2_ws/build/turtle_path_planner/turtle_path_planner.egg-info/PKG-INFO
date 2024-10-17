@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: turtle-path-planner
+Version: 0.0.0
+Summary: Path planner for turtlesim using ROS 2
+Maintainer: your_name
+Maintainer-email: monijesu.james@skoltech.ru
+License: Apache License 2.0

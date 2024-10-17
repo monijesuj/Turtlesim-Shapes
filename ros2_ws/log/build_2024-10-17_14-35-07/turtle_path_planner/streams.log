@@ -1,0 +1,35 @@
+[2.044s] Invoking command in '/home/monijesu/ros2_ws/build/turtle_path_planner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monijesu/ros2_ws/build/turtle_path_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monijesu/ros2_ws/install/turtle_path_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/monijesu/ros2_ws/build/turtle_path_planner/build --no-deps symlink_data
+[2.383s] running develop
+[2.383s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.383s] !!
+[2.383s] 
+[2.383s]         ********************************************************************************
+[2.383s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.384s]         Instead, use pypa/build, pypa/installer or other
+[2.384s]         standards-based tools.
+[2.384s] 
+[2.384s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.384s]         ********************************************************************************
+[2.384s] 
+[2.384s] !!
+[2.384s]   easy_install.initialize_options(self)
+[2.569s] running egg_info
+[2.569s] creating turtle_path_planner.egg-info
+[2.585s] writing turtle_path_planner.egg-info/PKG-INFO
+[2.585s] writing dependency_links to turtle_path_planner.egg-info/dependency_links.txt
+[2.585s] writing entry points to turtle_path_planner.egg-info/entry_points.txt
+[2.585s] writing requirements to turtle_path_planner.egg-info/requires.txt
+[2.585s] writing top-level names to turtle_path_planner.egg-info/top_level.txt
+[2.585s] writing manifest file 'turtle_path_planner.egg-info/SOURCES.txt'
+[2.616s] reading manifest file 'turtle_path_planner.egg-info/SOURCES.txt'
+[2.616s] writing manifest file 'turtle_path_planner.egg-info/SOURCES.txt'
+[2.633s] running build_ext
+[2.633s] Creating /home/monijesu/ros2_ws/install/turtle_path_planner/lib/python3.12/site-packages/turtle-path-planner.egg-link (link to .)
+[2.634s] Installing path_planner script to /home/monijesu/ros2_ws/install/turtle_path_planner/lib/turtle_path_planner
+[2.635s] 
+[2.635s] Installed /home/monijesu/ros2_ws/build/turtle_path_planner
+[2.636s] running symlink_data
+[2.636s] symbolically linking /home/monijesu/ros2_ws/build/turtle_path_planner/package.xml -> /home/monijesu/ros2_ws/install/turtle_path_planner/share/turtle_path_planner
+[2.636s] creating /home/monijesu/ros2_ws/install/turtle_path_planner/share/turtle_path_planner/launch
+[2.636s] symbolically linking /home/monijesu/ros2_ws/build/turtle_path_planner/launch/path_planner_launch.py -> /home/monijesu/ros2_ws/install/turtle_path_planner/share/turtle_path_planner/launch
+[2.660s] Invoked command in '/home/monijesu/ros2_ws/build/turtle_path_planner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monijesu/ros2_ws/build/turtle_path_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monijesu/ros2_ws/install/turtle_path_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/monijesu/ros2_ws/build/turtle_path_planner/build --no-deps symlink_data

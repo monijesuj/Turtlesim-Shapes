@@ -1,0 +1,104 @@
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import Twist
+from std_srvs.srv import Empty
+import math
+from math import pi,cos,sin,tan,atan
+import time
+
+class PathPlanner(Node):
+    def __init__(self):
+        super().__init__('path_planner')
+        self.publisher_ = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
+        self.srv_client = self.create_client(Empty, '/clear')
+        self.declare_parameter('trajectory', 'circle')  # Default trajectory: circle
+        self.trajectory = self.get_parameter('trajectory').get_parameter_value().string_value
+
+        self.timer_period = 0.1
+        self.timer = self.create_timer(self.timer_period, self.move_infinity)
+        self.t = 0.0
+
+    def move_turtle(self):
+        msg = Twist()
+
+        if self.trajectory == 'circle':
+            msg.linear.x = 2.0
+            msg.angular.z = 1.0
+            self.publisher_.publish(msg)
+        elif self.trajectory == 'square':
+            self.move_square(msg)
+        elif self.trajectory == 'infinity_sign':
+            self.move_infinity(msg)
+        elif self.trajectory == 'star':
+            self.move_star(msg)
+        else:
+            self.get_logger().info('Unknown trajectory')
+
+        self.publisher_.publish(msg)
+
+    def move_square(self, msg):
+        msg.linear.x = 2.0
+        msg.angular.z = 0.0
+        self.publisher_.publish(msg)
+        time.sleep(1.5)
+        msg.linear.x = 0.0
+        msg.angular.z = pi / 2
+        self.publisher_.publish(msg)
+        time.sleep(1.2)
+
+    def move_infinity(self, msg):
+        pass
+        '''# Define the parameters for the two loops of the infinity symbol
+        linear_speed = 2.0   # Adjust as needed
+        angular_speed = 1.5  # Adjust for the curvature of the arcs
+    
+        # First loop (left side of the infinity)
+        msg.linear.x = linear_speed
+        msg.angular.z = angular_speed
+        self.publisher_.publish(msg)
+        time.sleep(3.0)  # Adjust time for a smooth arc
+
+        # Straighten out momentarily (between the two loops)
+        msg.linear.x = linear_speed
+        msg.angular.z = 0.0
+        self.publisher_.publish(msg)
+        time.sleep(0.5)
+
+        # Second loop (right side of the infinity, opposite curvature)
+        msg.linear.x = linear_speed
+        msg.angular.z = -angular_speed
+        self.publisher_.publish(msg)
+        time.sleep(3.0)
+
+        # Stop after completing the figure-eight
+        msg.linear.x = 0.0
+        msg.angular.z = 0.0
+        self.publisher_.publish(msg)
+	'''
+    def move_star(self, msg):
+        msg.linear.x = 2.0
+        msg.angular.z = 0.0
+        self.publisher_.publish(msg)
+        time.sleep(1.2)
+        msg.linear.x = 0.0
+        msg.angular.z =4* pi / 5
+        self.publisher_.publish(msg)
+        time.sleep(1.2)
+
+def main(args=None):
+    rclpy.init(args=args)
+    path_planner = PathPlanner()
+
+    # Call the /clear service to reset the turtle environment
+    while not path_planner.srv_client.wait_for_service(timeout_sec=1.0):
+        path_planner.get_logger().info('/clear service not available, waiting...')
+
+    clear_turtle = Empty.Request()
+    path_planner.srv_client.call_async(clear_turtle)
+
+    rclpy.spin(path_planner)
+    path_planner.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

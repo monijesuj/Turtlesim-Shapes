@@ -1,0 +1,39 @@
+[1.459s] Invoking command in '/home/monijesu/ros2_ws/build/examples_rclpy_minimal_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monijesu/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monijesu/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/monijesu/ros2_ws/build/examples_rclpy_minimal_client/build --no-deps symlink_data
+[1.734s] running develop
+[1.734s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.734s] !!
+[1.734s] 
+[1.734s]         ********************************************************************************
+[1.734s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.734s]         Instead, use pypa/build, pypa/installer or other
+[1.735s]         standards-based tools.
+[1.735s] 
+[1.735s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.735s]         ********************************************************************************
+[1.735s] 
+[1.735s] !!
+[1.735s]   easy_install.initialize_options(self)
+[1.907s] running egg_info
+[1.907s] creating examples_rclpy_minimal_client.egg-info
+[1.924s] writing examples_rclpy_minimal_client.egg-info/PKG-INFO
+[1.924s] writing dependency_links to examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[1.924s] writing entry points to examples_rclpy_minimal_client.egg-info/entry_points.txt
+[1.924s] writing requirements to examples_rclpy_minimal_client.egg-info/requires.txt
+[1.924s] writing top-level names to examples_rclpy_minimal_client.egg-info/top_level.txt
+[1.925s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[1.960s] reading manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[1.960s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[1.978s] running build_ext
+[1.978s] Creating /home/monijesu/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+[1.979s] Installing client script to /home/monijesu/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[1.979s] Installing client_async script to /home/monijesu/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[1.979s] Installing client_async_callback script to /home/monijesu/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[1.979s] Installing client_async_member_function script to /home/monijesu/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[1.979s] 
+[1.979s] Installed /home/monijesu/ros2_ws/build/examples_rclpy_minimal_client
+[1.979s] running symlink_data
+[1.979s] creating /home/monijesu/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index
+[1.980s] creating /home/monijesu/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index
+[1.980s] creating /home/monijesu/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[1.980s] symbolically linking /home/monijesu/ros2_ws/build/examples_rclpy_minimal_client/resource/examples_rclpy_minimal_client -> /home/monijesu/ros2_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[1.980s] symbolically linking /home/monijesu/ros2_ws/build/examples_rclpy_minimal_client/package.xml -> /home/monijesu/ros2_ws/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client

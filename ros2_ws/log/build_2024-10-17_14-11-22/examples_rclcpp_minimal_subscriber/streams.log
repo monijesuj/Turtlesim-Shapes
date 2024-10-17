@@ -1,0 +1,72 @@
+[0.051s] Invoking command in '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[0.942s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.942s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.942s] -- Found rclcpp: 28.3.3 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.942s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.942s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.942s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.942s] -- Found rmw_implementation_cmake: 7.4.3 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.942s] -- Found rmw_fastrtps_cpp: 9.0.1 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.942s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.942s] -- Found rclcpp_components: 28.3.3 (/opt/ros/rolling/share/rclcpp_components/cmake)
+[0.943s] -- Found std_msgs: 5.4.1 (/opt/ros/rolling/share/std_msgs/cmake)
+[0.943s] -- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[0.949s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.952s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.952s] -- Configured cppcheck include dirs: 
+[0.952s] -- Configured cppcheck exclude dirs and/or files: 
+[0.952s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.952s] -- Configured cpplint exclude dirs and/or files: 
+[0.952s] -- Added test 'lint_cmake' to check CMake code style
+[0.952s] -- Added test 'uncrustify' to check C / C++ code style
+[0.952s] -- Configured uncrustify additional arguments: 
+[0.952s] -- Added test 'xmllint' to check XML markup files
+[0.953s] -- Configuring done (0.9s)
+[1.036s] -- Generating done (0.1s)
+[1.036s] -- Build files have been written to: /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[1.050s] Invoked command in '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[1.050s] Invoking command in '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[1.156s] [  8%] Built target subscriber_member_function
+[1.156s] [ 16%] Built target wait_set_subscriber
+[1.161s] [ 25%] Built target subscriber_lambda
+[1.161s] [ 33%] Built target subscriber_member_function_with_type_adapter
+[1.170s] [ 41%] Built target subscriber_member_function_with_topic_statistics
+[1.171s] [ 50%] Built target subscriber_content_filtering
+[1.171s] [ 66%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[1.172s] [ 66%] Built target subscriber_not_composable
+[1.173s] [ 83%] Built target wait_set_subscriber_library
+[1.175s] [ 91%] Built target static_wait_set_subscriber
+[1.175s] [100%] Built target time_triggered_wait_set_subscriber
+[1.196s] Invoked command in '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[1.286s] Invoking command in '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[1.363s] -- Install configuration: ""
+[1.363s] -- Execute custom install script
+[1.363s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[1.363s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[1.363s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[1.364s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[1.364s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[1.364s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[1.366s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[1.375s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[1.383s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[1.393s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[1.401s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[1.410s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[1.420s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[1.428s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[1.436s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[1.444s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[1.452s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[1.460s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[1.468s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[1.476s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[1.500s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[1.501s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[1.501s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[1.508s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[1.516s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[1.525s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[1.536s] -- Symlinking: /home/monijesu/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[2.177s] Invoked command in '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_subscriber

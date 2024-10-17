@@ -1,0 +1,48 @@
+[2.325s] Invoking command in '/home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/build
+[2.553s] running develop
+[2.553s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.553s] !!
+[2.553s] 
+[2.553s]         ********************************************************************************
+[2.553s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.553s]         Instead, use pypa/build, pypa/installer or other
+[2.553s]         standards-based tools.
+[2.553s] 
+[2.553s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.553s]         ********************************************************************************
+[2.553s] 
+[2.553s] !!
+[2.553s]   easy_install.initialize_options(self)
+[2.731s] Removing /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[2.770s] Invoked command in '/home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/build
+[2.771s] Invoking command in '/home/monijesu/ros2_ws/src/examples/rclpy/guard_conditions': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed install_data --force
+[3.132s] running egg_info
+[3.148s] writing ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[3.148s] writing dependency_links to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[3.149s] writing entry points to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[3.149s] writing requirements to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+[3.149s] writing top-level names to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+[3.184s] reading manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.185s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.185s] running build
+[3.185s] running build_py
+[3.185s] creating /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/build
+[3.185s] creating /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/build/lib
+[3.185s] creating /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[3.186s] copying examples_rclpy_guard_conditions/__init__.py -> /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[3.186s] copying examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[3.186s] running install
+[3.191s] running install_lib
+[3.208s] creating /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages/examples_rclpy_guard_conditions
+[3.208s] copying /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/__init__.py -> /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages/examples_rclpy_guard_conditions
+[3.208s] copying /home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages/examples_rclpy_guard_conditions
+[3.209s] byte-compiling /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages/examples_rclpy_guard_conditions/__init__.py to __init__.cpython-312.pyc
+[3.209s] byte-compiling /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages/examples_rclpy_guard_conditions/trigger_guard_condition.py to trigger_guard_condition.cpython-312.pyc
+[3.209s] running install_data
+[3.209s] copying resource/examples_rclpy_guard_conditions -> /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[3.210s] copying package.xml -> /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[3.210s] running install_egg_info
+[3.228s] Copying ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages/examples_rclpy_guard_conditions-0.20.2-py3.12.egg-info
+[3.229s] running install_scripts
+[3.343s] Installing trigger_guard_condition script to /home/monijesu/ros2_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[3.344s] writing list of installed files to '/home/monijesu/ros2_ws/build/examples_rclpy_guard_conditions/install.log'

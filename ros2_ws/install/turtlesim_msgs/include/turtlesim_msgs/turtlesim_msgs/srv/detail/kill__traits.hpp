@@ -1,0 +1,1 @@
+/home/monijesu/ros2_ws/build/turtlesim_msgs/rosidl_generator_cpp/turtlesim_msgs/srv/detail/kill__traits.hpp

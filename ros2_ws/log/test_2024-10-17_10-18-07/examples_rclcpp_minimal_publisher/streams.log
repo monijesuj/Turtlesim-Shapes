@@ -1,0 +1,131 @@
+[1.410s] Invoking command in '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[1.435s] UpdateCTestConfiguration  from :/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[1.435s] Parse Config file:/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[1.435s]    Site: monijesu
+[1.435s]    Build name: (empty)
+[1.435s]  Add coverage exclude regular expressions.
+[1.436s] Create new tag: 20241017-0718 - Experimental
+[1.436s] UpdateCTestConfiguration  from :/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[1.436s] Parse Config file:/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[1.436s] Test project /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher
+[1.436s] Constructing a list of tests
+[1.436s] Done constructing a list of tests
+[1.436s] Updating test list for fixtures
+[1.437s] Added 0 tests to meet fixture requirements
+[1.437s] Checking test dependency graph...
+[1.437s] Checking test dependency graph end
+[1.442s] test 1
+[1.442s]     Start 1: copyright
+[1.442s] 
+[1.442s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/rolling/share/ament_cmake_test/cmake/run_test.py" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_copyright/copyright.txt" "--command" "/opt/ros/rolling/bin/ament_copyright" "--xunit-file" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml"
+[1.442s] 1: Working Directory: /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher
+[1.442s] 1: Test timeout computed to be: 200
+[1.534s] 1: -- run_test.py: invoking following command in '/home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[1.534s] 1:  - /opt/ros/rolling/bin/ament_copyright --xunit-file /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml
+[2.207s] 1: No problems found, checked 6 files
+[2.225s] 1: -- run_test.py: return code 0
+[2.225s] 1: -- run_test.py: verify result file '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml'
+[2.237s] 1/6 Test #1: copyright ........................   Passed    0.82 sec
+[2.237s] test 2
+[2.237s]     Start 2: cppcheck
+[2.237s] 
+[2.238s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/rolling/share/ament_cmake_test/cmake/run_test.py" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/rolling/bin/ament_cppcheck" "--xunit-file" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml"
+[2.238s] 2: Working Directory: /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher
+[2.238s] 2: Test timeout computed to be: 300
+[2.344s] 2: -- run_test.py: invoking following command in '/home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[2.344s] 2:  - /opt/ros/rolling/bin/ament_cppcheck --xunit-file /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml
+[2.463s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[2.498s] 2: -- run_test.py: return code 0
+[2.498s] 2: -- run_test.py: verify result file '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml'
+[2.501s] 2/6 Test #2: cppcheck .........................   Passed    0.26 sec
+[2.501s] test 3
+[2.501s]     Start 3: cpplint
+[2.501s] 
+[2.502s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/rolling/share/ament_cmake_test/cmake/run_test.py" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_cpplint/cpplint.txt" "--command" "/opt/ros/rolling/bin/ament_cpplint" "--xunit-file" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml"
+[2.502s] 3: Working Directory: /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher
+[2.502s] 3: Test timeout computed to be: 120
+[2.609s] 3: -- run_test.py: invoking following command in '/home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[2.609s] 3:  - /opt/ros/rolling/bin/ament_cpplint --xunit-file /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml
+[2.872s] 3: Using '--root=..' argument
+[2.873s] 3: 
+[2.873s] 3: Done processing /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/lambda.cpp
+[2.873s] 3: 
+[2.873s] 3: Done processing /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function.cpp
+[2.873s] 3: 
+[2.873s] 3: Done processing /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_type_adapter.cpp
+[2.873s] 3: 
+[2.873s] 3: Done processing /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_unique_network_flow_endpoints.cpp
+[2.874s] 3: 
+[2.874s] 3: Done processing /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_wait_for_all_acked.cpp
+[2.874s] 3: 
+[2.874s] 3: Done processing /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/not_composable.cpp
+[2.874s] 3: 
+[2.874s] 3: No problems found
+[2.895s] 3: -- run_test.py: return code 0
+[2.895s] 3: -- run_test.py: verify result file '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml'
+[2.912s] 3/6 Test #3: cpplint ..........................   Passed    0.41 sec
+[2.913s] test 4
+[2.913s]     Start 4: lint_cmake
+[2.913s] 
+[2.913s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/rolling/share/ament_cmake_test/cmake/run_test.py" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/rolling/bin/ament_lint_cmake" "--xunit-file" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml"
+[2.913s] 4: Working Directory: /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher
+[2.913s] 4: Test timeout computed to be: 60
+[3.021s] 4: -- run_test.py: invoking following command in '/home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[3.021s] 4:  - /opt/ros/rolling/bin/ament_lint_cmake --xunit-file /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml
+[3.113s] 4: 
+[3.113s] 4: No problems found
+[3.127s] 4: -- run_test.py: return code 0
+[3.127s] 4: -- run_test.py: verify result file '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml'
+[3.141s] 4/6 Test #4: lint_cmake .......................   Passed    0.23 sec
+[3.142s] test 5
+[3.142s]     Start 5: uncrustify
+[3.142s] 
+[3.142s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/rolling/share/ament_cmake_test/cmake/run_test.py" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/rolling/bin/ament_uncrustify" "--xunit-file" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml"
+[3.142s] 5: Working Directory: /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher
+[3.142s] 5: Test timeout computed to be: 60
+[3.234s] 5: -- run_test.py: invoking following command in '/home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[3.234s] 5:  - /opt/ros/rolling/bin/ament_uncrustify --xunit-file /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml
+[3.339s] 5: No code style divergence in file 'lambda.cpp'
+[3.340s] 5: 
+[3.340s] 5: No code style divergence in file 'member_function.cpp'
+[3.340s] 5: 
+[3.340s] 5: No code style divergence in file 'member_function_with_type_adapter.cpp'
+[3.340s] 5: 
+[3.340s] 5: No code style divergence in file 'member_function_with_unique_network_flow_endpoints.cpp'
+[3.340s] 5: 
+[3.340s] 5: No code style divergence in file 'member_function_with_wait_for_all_acked.cpp'
+[3.341s] 5: 
+[3.341s] 5: No code style divergence in file 'not_composable.cpp'
+[3.341s] 5: 
+[3.341s] 5: No problems found
+[3.352s] 5: -- run_test.py: return code 0
+[3.352s] 5: -- run_test.py: verify result file '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml'
+[3.362s] 5/6 Test #5: uncrustify .......................   Passed    0.22 sec
+[3.362s] test 6
+[3.362s]     Start 6: xmllint
+[3.363s] 
+[3.363s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/rolling/share/ament_cmake_test/cmake/run_test.py" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_xmllint/xmllint.txt" "--command" "/opt/ros/rolling/bin/ament_xmllint" "--xunit-file" "/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml"
+[3.363s] 6: Working Directory: /home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher
+[3.363s] 6: Test timeout computed to be: 60
+[3.426s] 6: -- run_test.py: invoking following command in '/home/monijesu/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[3.427s] 6:  - /opt/ros/rolling/bin/ament_xmllint --xunit-file /home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml
+[4.510s] 6: File 'package.xml' is valid
+[4.510s] 6: 
+[4.510s] 6: No problems found
+[4.523s] 6: -- run_test.py: return code 0
+[4.523s] 6: -- run_test.py: verify result file '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml'
+[4.533s] 6/6 Test #6: xmllint ..........................   Passed    1.17 sec
+[4.533s] 
+[4.533s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[4.533s] 
+[4.533s] Label Time Summary:
+[4.533s] copyright     =   0.82 sec*proc (1 test)
+[4.533s] cppcheck      =   0.26 sec*proc (1 test)
+[4.533s] cpplint       =   0.41 sec*proc (1 test)
+[4.533s] lint_cmake    =   0.23 sec*proc (1 test)
+[4.533s] linter        =   3.11 sec*proc (6 tests)
+[4.534s] uncrustify    =   0.22 sec*proc (1 test)
+[4.534s] xmllint       =   1.17 sec*proc (1 test)
+[4.534s] 
+[4.534s] Total Test time (real) =   3.11 sec
+[4.538s] Invoked command in '/home/monijesu/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
