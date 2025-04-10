@@ -6,7 +6,7 @@ Run with:
 
 Start turtlesim node:
 
-ros2 run turtlesim turtlesim_node
+'''ros2 run turtlesim turtlesim_node'''
 
 Run the path planner node:
 
