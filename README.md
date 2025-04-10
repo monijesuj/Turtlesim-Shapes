@@ -76,15 +76,3 @@ For example, to run the node with a circle trajectory:
 ```sh
 ros2 run turtle_path_planner path_planner --ros-args -p trajectory:=circle
 ```
-
-## License
-
-[Insert License Information Here]
-
-## Contribution
-
-Contributions are welcome! Open an issue or submit a pull request with your improvements.
-
-## Contact
-
-[Provide your contact details or GitHub profile here]
